@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CatKeeper</string>
+    <string name="accessibility_service_description">CatKeeper needs this to track the number of times you scroll inside Instagram.</string>
+</resources>

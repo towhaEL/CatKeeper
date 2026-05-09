@@ -1,0 +1,145 @@
+﻿Initialized native services in: C:\Users\ASUS\.gradle\native
+Initialized jansi services in: C:\Users\ASUS\.gradle\native
+The client will now receive all logging from the daemon (pid: 13288). The daemon log file: C:\Users\ASUS\.gradle\daemon\9.3.1\daemon-13288.out.log
+Starting 5th build in daemon [uptime: 10 mins 5.554 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 16 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [E:\catKeeper\compose-clean-architecture] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file 'E:\catKeeper\compose-clean-architecture\settings.gradle.kts'.
+Projects loaded. Root project using build file 'E:\catKeeper\compose-clean-architecture\build.gradle.kts'.
+Included projects: [root project 'CatKeeper', project ':app']
+
+> Configure project :
+Evaluating root project 'CatKeeper' using build file 'E:\catKeeper\compose-clean-architecture\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.1.0', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.20', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.20', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.kapt', version: '2.0.20', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'E:\catKeeper\compose-clean-architecture\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.1.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.0.20']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.20']
+Resolved plugin [id: 'org.jetbrains.kotlin.kapt', version: '2.0.20']
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+WARNING: The option setting 'android.builtInKotlin=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+Using default execution profile
+Build 71627e3f-33ad-4f18-9619-80cd94fedd32 is started
+Using Kotlin Gradle Plugin gradle813 variant
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+Detected Android Gradle Plugin compose compiler configuration
+All projects evaluated.
+Task path ':app:kaptDebugKotlin' matched project ':app'
+Task name matched 'kaptDebugKotlin'
+Selected primary task 'kaptDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:kaptGenerateStubsDebugKotlin', task ':app:kaptDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :app:preBuild (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:preBuild (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:preDebugBuild (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:generateDebugResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:generateDebugResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#795,included builds,5,main]) started.
+:app:packageDebugResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:processDebugNavigationResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:parseDebugLocalResources (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:generateDebugRFile (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:kaptGenerateStubsDebugKotlin (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:kaptGenerateStubsDebugKotlin (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:kaptGenerateStubsDebugKotlin UP-TO-DATE
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugAndroidTestKotlin
+Caching disabled for task ':app:kaptGenerateStubsDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':app:kaptGenerateStubsDebugKotlin' as it is up-to-date.
+Resolve mutations for :app:kaptDebugKotlin (Thread[#797,Execution worker Thread 2,5,main]) started.
+:app:kaptDebugKotlin (Thread[#797,Execution worker Thread 2,5,main]) started.
+
+> Task :app:kaptDebugKotlin
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\java', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\main\kotlin', not found
+file or directory 'E:\catKeeper\compose-clean-architecture\app\src\debug\kotlin', not found
+Caching disabled for task ':app:kaptDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kaptDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:kaptDebugKotlin'.
+Running kapt annotation processing using the Gradle Worker API
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Using workers NONE isolation mode to run kapt
+
+> Task :app:kaptDebugKotlin FAILED
+Build 71627e3f-33ad-4f18-9619-80cd94fedd32 is closed
+7 actionable tasks: 1 executed, 6 up-to-date
+Watched directory hierarchies: [E:\catKeeper\compose-clean-architecture]
