@@ -267,7 +267,7 @@ class MonitorService : Service() {
         if (overlayView != null) return
 
         val ctx = this
-        val rootLayout = FrameLayout(ctx).apply { setBackgroundColor(Color.parseColor("#CC0D0D1A")) }
+        val rootLayout = FrameLayout(ctx).apply { setBackgroundColor(Color.parseColor("#CC121212")) }
         
         val centerContainer = LinearLayout(ctx).apply {
             orientation = LinearLayout.VERTICAL
@@ -287,7 +287,7 @@ class MonitorService : Service() {
 
         val subtitleText = TextView(ctx).apply {
             text = if (isDailyBlock) "You've used all your Instagram time for today." else "You've reached your session limit."
-            setTextColor(Color.parseColor("#B0B0C0"))
+            setTextColor(Color.parseColor("#B3B3B3"))
             setTextSize(TypedValue.COMPLEX_UNIT_SP, 15f)
             gravity = Gravity.CENTER
             layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT).apply { bottomMargin = dp(24) }
@@ -295,7 +295,7 @@ class MonitorService : Service() {
 
         val videoContainer = FrameLayout(ctx).apply {
             layoutParams = LinearLayout.LayoutParams(dp(280), dp(280)).apply { gravity = Gravity.CENTER_HORIZONTAL; bottomMargin = dp(24) }
-            background = GradientDrawable().apply { cornerRadius = dp(24).toFloat(); setColor(Color.parseColor("#1A1A2E")) }
+            background = GradientDrawable().apply { cornerRadius = dp(24).toFloat(); setColor(Color.parseColor("#1E1E1E")) }
             clipToOutline = true
             outlineProvider = object : android.view.ViewOutlineProvider() {
                 override fun getOutline(view: android.view.View, outline: android.graphics.Outline) {
@@ -357,7 +357,7 @@ class MonitorService : Service() {
             typeface = Typeface.create("sans-serif-medium", Typeface.BOLD)
             gravity = Gravity.CENTER
             setPadding(dp(24), dp(12), dp(24), dp(12))
-            background = GradientDrawable().apply { cornerRadius = dp(12).toFloat(); setColor(Color.parseColor("#7C4DFF")) }
+            background = GradientDrawable().apply { cornerRadius = dp(12).toFloat(); setColor(Color.parseColor("#FF6D00")) }
             layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT).apply { topMargin = dp(32); gravity = Gravity.CENTER_HORIZONTAL }
             setOnClickListener {
                 val homeIntent = Intent(Intent.ACTION_MAIN).apply {

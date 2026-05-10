@@ -5,17 +5,19 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
 private val CatKeeperColorScheme = darkColorScheme(
-    primary = PurpleAccent,
-    onPrimary = TextPrimary,
-    primaryContainer = PurpleDark,
-    secondary = OrangeAccent,
-    onSecondary = TextPrimary,
-    secondaryContainer = OrangeLight,
-    background = DarkBackground,
+    primary = OrangePrimary,
+    onPrimary = MatteBlack,
+    primaryContainer = OrangeVariant,
+    onPrimaryContainer = TextPrimary,
+    secondary = OrangeLight,
+    onSecondary = MatteBlack,
+    secondaryContainer = MatteSurfaceVariant,
+    onSecondaryContainer = TextPrimary,
+    background = MatteBlack,
     onBackground = TextPrimary,
-    surface = DarkSurface,
+    surface = MatteSurface,
     onSurface = TextPrimary,
-    surfaceVariant = DarkSurfaceVariant,
+    surfaceVariant = MatteSurfaceVariant,
     onSurfaceVariant = TextSecondary,
     error = StatusRed,
 )

@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import com.catkeeper.app.presentation.theme.DarkSurface
+import com.catkeeper.app.presentation.theme.MatteSurface
 
 @Composable
 fun GlassCard(
@@ -35,7 +35,7 @@ fun GlassCard(
             ),
         shape = RoundedCornerShape(20.dp),
         colors = CardDefaults.cardColors(
-            containerColor = DarkSurface.copy(alpha = 0.85f)
+            containerColor = MatteSurface.copy(alpha = 0.85f)
         )
     ) {
         Column(
